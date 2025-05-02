@@ -4,11 +4,11 @@ import { AppComponent } from './app.component';
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',  // Redirect to 'home' path
-    pathMatch: 'full'     // Only redirect if the path is exactly ''
+    redirectTo: 'home', 
+    pathMatch: 'full'    
   },
   {
     path: '',
-    component: AppComponent // Home component (AppComponent in your case)
+    component: AppComponent 
   }
 ];
