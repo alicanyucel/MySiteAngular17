@@ -6,11 +6,12 @@ import { ProjectComponent } from './project/project.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component';
+import { VisitorCounterComponent } from './visitorcounter/visitorcounter.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule,SkillsComponent,HeaderComponent,RouterOutlet,FooterComponent,ProjectComponent,ExperienceComponent],
+  imports: [CommonModule,SkillsComponent,HeaderComponent,RouterOutlet,FooterComponent,ProjectComponent,ExperienceComponent,VisitorCounterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
