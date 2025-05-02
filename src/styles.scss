@@ -1,20 +1,12 @@
 html,body{
-    height:100%;
-    width: 100%;
-    padding: 0;
-    margin: 2pz;
+    height:98%;
+    width: 98%;
+    padding: 4px;
+    margin: 4px;
 }
 body{
     background-color:rgb(159, 145, 243);
+    color:white;
+    font-family: 'Montserrat',sans-serif;
 }
-p{
-    padding: 5px;
-    color:black;
-    font-size: 30px;
-    align-items: center;
-}
-main{
-    width: 90%;
-    margin: auto;
-    color:#fff;
-}
+
