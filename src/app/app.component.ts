@@ -1,17 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { SkillsComponent } from './skills/skills.component';
 import { HeaderComponent } from './header/header.component';
 import { ProjectComponent } from './project/project.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component';
-import { VisitorCounterComponent } from './visitorcounter/visitorcounter.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule,SkillsComponent,HeaderComponent,RouterOutlet,FooterComponent,ProjectComponent,ExperienceComponent,VisitorCounterComponent],
+  imports: [CommonModule,SkillsComponent,HeaderComponent,FooterComponent,ProjectComponent,ExperienceComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
